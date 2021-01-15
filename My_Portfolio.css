@@ -1,0 +1,206 @@
+html
+{
+    scroll-behavior: smooth;
+
+}
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body
+{
+    background-color: #1f1f1f;
+}
+ul
+{
+    list-style: none;
+}
+#name
+{
+    
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+    text-align: center
+}
+#sub
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.mainbody
+{
+    height: 300vh;
+   
+}
+.navi
+{
+    position: fixed;
+    top:60%;
+    display: flex;
+    transform: translateY(-50%);
+}
+.navi ul
+{
+    padding-left: 100px;
+
+}
+#aboutp
+{
+    font-size: 20px;
+    color: #f8f7fa;
+    padding-left: 400px;
+    padding-right: 200px;
+    text-align: left;
+}
+#sub2
+{
+    margin-left: 400px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.navi ul li
+{
+    padding: 10px;
+    padding-left: 20px;
+
+
+}
+.navi ul li a
+{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-size: 20px;
+
+}
+
+#pic
+{
+    display: block;
+    margin-left: 360px;
+}
+section
+{
+    font-size: 50px;
+    color: white;
+    margin-top: 800px;
+    scroll-snap-align: center;
+}
+#header
+{
+    height: 500px;
+    padding-top: 100px;
+    text-align: center; 
+}
+.maingallery
+{
+    max-width: 1500px;
+    margin-left: 400px;
+    overflow: auto;
+
+}
+.subtitle
+{
+    font-size: 45px;
+    margin-left: 400px;
+}
+#subfull
+{
+    margin-top: 500px;
+}
+#headerimg
+{
+    margin-left: 250px;
+}
+.headerpic img
+{
+    margin: 5px;
+    float: left; 
+    width: 500px;
+    height: 500px;
+}
+.gallery
+{
+    margin: 5px;
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+.gallery img
+{
+    width:  100%;
+    height: 200px;
+
+}
+.skills
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 400px;
+}
+#contact
+{
+    margin-left: 1820px;
+    position: fixed;
+    top:10%;
+}
+
+.social
+{
+    
+    position: relative;
+   
+    color: white;
+
+}
+.loaderwrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:  #1f1f1f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.loader 
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: flex;                   
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+.loaderinner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
